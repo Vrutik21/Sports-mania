@@ -1,13 +1,12 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./TeamPage.css";
-import records from "../../SportsMania.json";
-// import pic from "../images/india-1617463_1280.png";
-import england from "../images/union-jack-1027898_1280.jpg";
-import southAfrica from "../images/south-africa-162425_1280.png";
-import westIndies from "../images/west-indies-cricket-team-logo-1280x720-1.jpg";
+import records from "../../../SportsMania.json";
+import england from "../../images/union-jack-1027898_1280.jpg";
+import southAfrica from "../../images/south-africa-162425_1280.png";
+import westIndies from "../../images/west-indies-cricket-team-logo-1280x720-1.jpg";
 import { useContext } from "react";
-import AuthContext from "../Context";
+import AuthContext from "../../Context";
 
 const TeamPage = () => {
   const auth = useContext(AuthContext);

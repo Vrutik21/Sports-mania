@@ -2,12 +2,12 @@ import "./App.css";
 import Login from "./components/Login/login";
 import NavBar from "./components/NavBar/navBar";
 import { Route, Routes, useNavigate } from "react-router-dom";
-import TeamPage from "./components/Teams/TeamPage";
-import TeamPlayers from "./components/Teams/TeamPlayers";
+import TeamPage from "./components/Teams/TeamPage/TeamPage";
+import TeamPlayers from "./components/Teams/TeamPlayer/TeamPlayers";
 import BackToTop from "./components/BackToTop/BackToTop";
 import { useState } from "react";
 import AuthContext from "./components/Context";
-import PlayerInfo from "./components/Teams/PlayerInfo";
+import PlayerInfo from "./components/Teams/PlayerInfo/PlayerInfo";
 
 function App() {
   const navigate = useNavigate();

@@ -1,10 +1,10 @@
 import React, { useContext, useEffect } from "react";
 import "./PlayerInfo.css";
 import { Container, Stack } from "@mui/material";
-import pic from "../images/india-1617463_1280.png";
+import pic from "../../images/india-1617463_1280.png";
 import { useLocation, useNavigate } from "react-router-dom";
-import AuthContext from "../Context";
-import records from "../../SportsMania.json";
+import AuthContext from "../../Context";
+import records from "../../../SportsMania.json";
 
 const PlayerInfo = () => {
   const auth = useContext(AuthContext);

@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import records from "../../SportsMania.json";
-import pic from "../images/avatar-1577909_1280.png";
+import records from "../../../SportsMania.json";
+import pic from "../../images/avatar-1577909_1280.png";
 import "./teams.css";
 import { useContext } from "react";
-import AuthContext from "../Context";
+import AuthContext from "../../Context";
 import { useLocation } from "react-router-dom";
 
 const TeamPlayers = () => {

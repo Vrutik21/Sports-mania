@@ -20,9 +20,10 @@
   width: 100%;
 }
 
-span {
+.detailItem span {
   font-size: 1rem;
   font-weight: lighter;
+  color: rgb(14, 114, 147);
 }
 
 .stack {
